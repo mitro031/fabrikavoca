@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MFruits - O nama</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="mfruits.png" alt="MFruits Logo" class="logo" />
+        </div>
+    </header>
+    
+    <main class="container">
+        <section id="o-nama">
+            <h2>O nama</h2>
+            <p>MFruits je fabrika posvećena preradi voća najvišeg kvaliteta. Naša strast prema voću nas pokreće da kreiramo proizvode koji su zdravi i ukusni. Sa tradicijom dugom više od 20 godina, uveravamo vas da su naši proizvodi rezultat pažljive selekcije i inovativne tehnologije.</p>
+            <h3>Naša misija</h3>
+            <p>Naša misija je da pružimo potrošačima prirodne i zdrave proizvode, uz poštovanje prema prirodi i lokalnim zajednicama.</p>
+        </section>
+
+        <section id="proizvodi">
+            <h2>Naši proizvodi</h2>
+            <div class="proizvod">
+                <h3>Sokovi</h3>
+                <p>Prirodni sokovi bez konzervansa, proizvedeni od svežeg voća. Dostupni su u različitim ukusima, uključujući narandžu, jabuku i krušku.</p>
+            </div>
+            <div class="proizvod">
+                <h3>Džemovi</h3>
+                <p>Domaći džemovi od svežeg voća, savršeni za doručak ili užinu. Pripremljeni su bez dodatnih šećera i veštačkih aroma.</p>
+            </div>
+            <div class="proizvod">
+                <h3>Konzervisano voće</h3>
+                <p>Savršeno voće, spremno za svaku priliku. Idealno za kolače, salate ili kao samostalan užitak.</p>
+            </div>
+        </section>
+
+        <section id="galerija">
+            <h2>Galerija</h2>
+            <p>Pogledajte neke od naših proizvoda i procesa proizvodnje:</p>
+            <div class="gallery">
+                <img src="bio-organska-pica-sokovi-calix (1).jpg" alt="Sokovi" />
+                <img src="dzem.jpg" alt="Džemovi" />
+                <img src="1711356358-shutterstock_1022290516-750x500.jpg" alt="Konzervisano voće" />
+            </div>
+        </section>
+
+        <section id="kontakt">
+            <h2>Kontaktirajte nas</h2>
+            <p>Za više informacija, pišite nam na: <a href="mailto:info@mfabrika.com">info@mfabrika.com</a>.</p>
+            <p>Možete nas kontaktirati i putem društvenih mreža:</p>
+            <ul>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Twitter</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 MFruits. Sva prava zadržana.</p>
+    </footer>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #ffffff;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        header {
+            background: #d2ffd2;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .logo {
+            display:grid;
+            margin:0em;
+            max-width: 200px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        main {
+            padding: 20px;
+            background: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #009619;
+            margin-bottom: 10px;
+        }
+
+        .proizvod {
+            margin-bottom: 20px;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 10px;
+        }
+
+        .gallery {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .gallery img {
+            width: calc(33% - 10px);
+            border-radius: 5px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #9e0000;
+            color: #fff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</body>
+</html>
